@@ -1,0 +1,28 @@
+.contact-container {
+    margin: 2rem auto;
+    max-width: 600px;
+  }
+  .contact-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-container label {
+    margin-top: 1rem;
+  }
+  .contact-container input, .contact-container textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .contact-container button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .contact-container button:hover {
+    background-color: #e5533d;
+  }
+  
